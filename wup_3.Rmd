@@ -52,6 +52,14 @@ looking at the data, the mean at the front is 1.8. the middle is 3.28, and the b
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+As we can see through the one way  anova test that the Pr results were 0.000116, which tells us that theirs is a 0.000116 that the back row would consume less alcohol than the front and middle rows. which means there a less chance that the back row would consume less alcohol then the front and the middle rows.  
+
+
 ## Conclusions
 
 
