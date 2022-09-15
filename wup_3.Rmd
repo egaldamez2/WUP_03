@@ -44,6 +44,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+looking at the data, the mean at the front is 1.8. the middle is 3.28, and the back is 9.6. As we can see, this shows us the back has a large mean than the front and the middle, which mean the back has a large alcohol consumption. 
+
 ## Inferential Tests
 
 ## Conclusions
